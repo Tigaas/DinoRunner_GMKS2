@@ -1,0 +1,1 @@
+ layer_hspeed("Background", global.velocidade);
