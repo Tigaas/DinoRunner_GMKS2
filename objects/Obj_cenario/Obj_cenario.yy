@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_obstaculo",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_cenario",
+  "eventList":[],
   "managed":true,
-  "name":"obj_obstaculo",
+  "name":"Obj_cenario",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_obstaculo",
-    "path":"sprites/spr_obstaculo/spr_obstaculo.yy",
+    "name":"Sprite9",
+    "path":"sprites/Sprite9/Sprite9.yy",
   },
   "spriteMaskId":null,
   "visible":true,

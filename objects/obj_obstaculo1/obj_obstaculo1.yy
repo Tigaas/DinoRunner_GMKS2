@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_parede",
-  "eventList":[],
+  "%Name":"obj_obstaculo1",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_parede",
+  "name":"obj_obstaculo1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -26,11 +29,14 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_parede",
-    "path":"sprites/spr_parede/spr_parede.yy",
+    "name":"spr_obstaculo",
+    "path":"sprites/spr_obstaculo/spr_obstaculo.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_obstaculo",
+    "path":"sprites/spr_obstaculo/spr_obstaculo.yy",
+  },
   "visible":true,
 }

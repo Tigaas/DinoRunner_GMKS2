@@ -19,6 +19,7 @@
   "height":180,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"6ed2d475-c8d4-47f9-8888-0e577716b4b0","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"6ed2d475-c8d4-47f9-8888-0e577716b4b0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"63febbc0-6580-4e45-ba6e-ea0412e2214b","blendMode":0,"displayName":"default","isLocked":false,"name":"63febbc0-6580-4e45-ba6e-ea0412e2214b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_background",

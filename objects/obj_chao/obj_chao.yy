@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_controle",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_chao",
+  "eventList":[],
   "managed":true,
-  "name":"obj_controle",
+  "name":"obj_chao",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -29,8 +26,14 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"spr_parede",
+    "path":"sprites/spr_parede/spr_parede.yy",
+  },
+  "spriteMaskId":{
+    "name":"spr_parede_colisao",
+    "path":"sprites/spr_parede_colisao/spr_parede_colisao.yy",
+  },
   "visible":true,
 }
