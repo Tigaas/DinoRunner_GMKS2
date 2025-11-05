@@ -35,6 +35,7 @@
   },
   "name":"DinoRunner",
   "resources":[
+    {"id":{"name":"fnt_score_big","path":"fonts/fnt_score_big/fnt_score_big.yy",},},
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
     {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
     {"id":{"name":"obj_jogador","path":"objects/obj_jogador/obj_jogador.yy",},},
