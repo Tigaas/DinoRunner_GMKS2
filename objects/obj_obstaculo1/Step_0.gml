@@ -12,4 +12,11 @@ if (x + sprite_width < obj_jogador.x && !pontuado) {
     pontuado = true;
 }
 }
+if (velocidade_x > obj_controle.velocidade_max) {
+    // Aumenta suavemente: quanto maior o score, mais rápido
+    velocidade_x = -2 - (obj_controle.pontuacao / 10);
+}
+if (velocidade_x < obj_controle.velocidade_max) {
+        velocidade_x = obj_controle.velocidade_max;
+}
 

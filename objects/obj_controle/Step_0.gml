@@ -13,4 +13,12 @@ if (tempo_spawn <= 0) {
     // Definir um novo tempo aleatório para o próximo spawn
     tempo_spawn = irandom_range(50, 120);
 }
+if (velocidade_bg > velocidade_max) {
+    // Aumenta suavemente: quanto maior o score, mais rápido
+    velocidade_bg = -2 - (pontuacao / 10);
+}
+if (velocidade_bg < velocidade_max) {
+        velocidade_bg = velocidade_max;
+}
+
 
