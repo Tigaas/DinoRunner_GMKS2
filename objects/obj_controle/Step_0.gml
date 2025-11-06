@@ -1,3 +1,13 @@
+if (keyboard_check_pressed(vk_escape)) {
+    global.jogo_pausado = !global.jogo_pausado;
+}
+
+// Se o jogo estiver pausado, não atualiza nada além da pausa
+if (global.jogo_pausado) {
+    // Aqui o jogo congela, mas sem resetar variáveis
+    exit;
+}
+
 // Mover o background com a velocidade ajustável
 layer_x("Background", layer_get_x("Background") + velocidade_bg);
 //layer_x("Nuvens", layer_get_x("Nuvens") + velocidade_cenario);
@@ -20,5 +30,7 @@ if (velocidade_bg > velocidade_max) {
 if (velocidade_bg < velocidade_max) {
         velocidade_bg = velocidade_max;
 }
+
+
 
 

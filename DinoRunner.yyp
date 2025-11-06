@@ -39,6 +39,7 @@
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
     {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
     {"id":{"name":"obj_jogador","path":"objects/obj_jogador/obj_jogador.yy",},},
+    {"id":{"name":"obj_menupause","path":"objects/obj_menupause/obj_menupause.yy",},},
     {"id":{"name":"obj_obstaculo1","path":"objects/obj_obstaculo1/obj_obstaculo1.yy",},},
     {"id":{"name":"obj_play","path":"objects/obj_play/obj_play.yy",},},
     {"id":{"name":"obj_restart","path":"objects/obj_restart/obj_restart.yy",},},

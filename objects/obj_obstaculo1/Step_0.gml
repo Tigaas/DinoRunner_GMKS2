@@ -1,3 +1,13 @@
+if (keyboard_check_pressed(vk_escape)) {
+    global.jogo_pausado = !global.jogo_pausado;
+}
+
+// Se o jogo estiver pausado, não atualiza nada além da pausa
+if (global.jogo_pausado) {
+    // Aqui o jogo congela, mas sem resetar variáveis
+    exit;
+}
+
 // Mover para a esquerda seguindo a velocidade do background
 x += velocidade_x;
 
@@ -20,3 +30,4 @@ if (velocidade_x < obj_controle.velocidade_max) {
         velocidade_x = obj_controle.velocidade_max;
 }
 
+	

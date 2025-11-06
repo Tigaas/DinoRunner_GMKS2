@@ -1,3 +1,16 @@
+if (keyboard_check_pressed(vk_escape)) {
+    global.jogo_pausado = !global.jogo_pausado;
+}
+
+// Se o jogo estiver pausado, não atualiza nada além da pausa
+if (global.jogo_pausado) {
+	image_speed = 0
+    // Aqui o jogo congela, mas sem resetar variáveis
+    exit;
+} else {
+	image_speed = 1
+}
+
 // Aplicar gravidade apenas se não estiver no chão
 if (!place_meeting(x, y + 1, obj_chao)) {
     velocidade_y += gravidade;
