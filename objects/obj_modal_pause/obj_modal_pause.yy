@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_menupause",
-  "eventList":[],
+  "%Name":"obj_modal_pause",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_menupause",
+  "name":"obj_modal_pause",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_modal_pause",
+    "path":"sprites/spr_modal_pause/spr_modal_pause.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

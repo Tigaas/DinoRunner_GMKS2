@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_obstaculo",
-    "path":"sprites/spr_obstaculo/spr_obstaculo.yy",
+    "name":"spr_obstaculo2",
+    "path":"sprites/spr_obstaculo2/spr_obstaculo2.yy",
   },
   "spriteMaskId":{
     "name":"spr_obstaculo",

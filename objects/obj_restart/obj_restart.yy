@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sprRestart",
-    "path":"sprites/sprRestart/sprRestart.yy",
+    "name":"sprMenu",
+    "path":"sprites/sprMenu/sprMenu.yy",
   },
   "spriteMaskId":null,
   "visible":true,

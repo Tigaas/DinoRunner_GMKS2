@@ -4,3 +4,7 @@ velocidade_cenario = -3;
 velocidade_max = -10;
 pontuacao = 0; 
 global.jogo_pausado = false;
+
+
+
+
