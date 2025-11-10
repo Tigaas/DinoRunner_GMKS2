@@ -51,6 +51,7 @@
     {"id":{"name":"rm_testes","path":"rooms/rm_testes/rm_testes.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+    {"id":{"name":"spr_corbackground","path":"sprites/spr_corbackground/spr_corbackground.yy",},},
     {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},},
     {"id":{"name":"spr_modal_pause","path":"sprites/spr_modal_pause/spr_modal_pause.yy",},},
     {"id":{"name":"spr_nuvem","path":"sprites/spr_nuvem/spr_nuvem.yy",},},

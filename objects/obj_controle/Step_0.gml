@@ -1,3 +1,5 @@
+//so vai pausar se estiver em game
+if (room == rm_main) {
 
 if (keyboard_check_pressed(vk_escape)) {
    global.jogo_pausado = !global.jogo_pausado;
@@ -15,7 +17,7 @@ if (global.jogo_pausado = true) {
 		 
 		}
 
-        // 🔹 Cria o modal na layer "UI"
+        //Cria o modal na layer "UI"
         if (!instance_exists(obj_modal_pause)) {
             instance_create_layer(room_width / 2, room_height / 2, "UI", obj_modal_pause);
         }
@@ -33,6 +35,19 @@ if (global.jogo_pausado = true) {
 }
 		}
 
+} else {
+	global.jogo_pausado = false;
+}
+if (room == rm_menu) {
+	with (obj_modal_pause) instance_destroy();	
+		
+		with (obj_botao_menu) instance_destroy();
+		
+		if (instance_exists(obj_botao_restart_pause)) {
+    instance_destroy(obj_botao_restart_pause);
+	
+}
+}
    
 
 

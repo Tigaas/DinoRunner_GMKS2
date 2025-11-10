@@ -6,8 +6,8 @@ image_xscale = 6;
 image_yscale = 6;
 
 // Cria os botões dentro do modal
-var botao_restart = instance_create_layer(x - 160, y + 180, "UI", obj_botao_restart_pause);
-var botao_menu    = instance_create_layer(x - 160, y + 30, "UI", obj_botao_menu);
+var botao_restart = instance_create_layer(x - 160, y + 150, "UI", obj_botao_restart_pause);
+var botao_menu    = instance_create_layer(x - 160, y + 10, "UI", obj_botao_menu);
 
 // Diminui o tamanho (sem alterar as sprites originais)
 botao_restart.image_xscale = 4; // largura em 60%
